@@ -1,0 +1,87 @@
+<soapenv:Envelope xmlns:soapenv = "http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <ns2:CheckCustomerProfileDataIP xmlns:ns3 = "http://ebai.deere.com/CIMS/common_types" xmlns:ns2 = "http://customeruser.deere.com/Customer/v1_0" xmlns = "http://soartm.deere.com/v3_0/">
+            <ns2:requestHeader>
+                <headerVersion>3.0.3</headerVersion>
+                <serviceFunctionalArea>CIMS</serviceFunctionalArea>
+                <serviceInstance>QA</serviceInstance>
+                <messageName>checkCustomerProfileData</messageName>
+                <messageVersion>1.0.1</messageVersion>
+                <trackingID>80e6ec18c9c44e2f99603c1d6e4e5483</trackingID>
+                <originationTimestamp>2015-02-11T08:02:32.283+05:30</originationTimestamp>
+                <locale>en_US</locale>
+                <sourceProgram>CFA</sourceProgram>
+                <firstCallingProgram>CFA</firstCallingProgram>
+                <traceLogRequired>Y</traceLogRequired>
+                <credentials>
+                    <endUserID>A900252</endUserID>
+                    <authorization>
+                        <authorizationID>A900252</authorizationID>
+                        <authorizationContext>
+                            <contextType>ClientLicense</contextType>
+                            <context>IDlHPZNM2HLEBLxMVLKHWIHPDVbIB6CC</context>
+                        </authorizationContext>
+                    </authorization>
+                    <chargeID>A900252</chargeID>
+                    <applicationID>A900252</applicationID>
+                </credentials>
+                <replyToDetails>
+                    <programName xsi:nil = "true" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"/>
+                    <serviceInstance>QA</serviceInstance>
+                </replyToDetails>
+            </ns2:requestHeader>
+            <ns2:profileType>Y</ns2:profileType>
+            <ns2:communicationType>EMAIL</ns2:communicationType>
+            <ns2:CustomerData>
+                <ns3:firstName>Rathin</ns3:firstName>
+                <ns3:lastName>Mandal</ns3:lastName>
+                <ns3:companyName/>
+                <ns3:customerType>Individual</ns3:customerType>
+                <ns3:preferredLang>US</ns3:preferredLang>
+                <ns3:Addressess>
+                    <ns3:addressType>POSTAL</ns3:addressType>
+                    <ns3:Address>
+                        <ns3:iso2CountryCode>US</ns3:iso2CountryCode>
+                        <ns3:AddressElement>
+                            <ns3:name>Address line 1</ns3:name>
+                            <ns3:label>Address line 1</ns3:label>
+                            <ns3:value>sldfkslk</ns3:value>
+                            <ns3:elemenentId>1</ns3:elemenentId>
+                        </ns3:AddressElement>
+                        <ns3:AddressElement>
+                            <ns3:name>Address line 2</ns3:name>
+                            <ns3:label>Address line 2</ns3:label>
+                            <ns3:value/>
+                            <ns3:elemenentId>2</ns3:elemenentId>
+                        </ns3:AddressElement>
+                        <ns3:AddressElement>
+                            <ns3:name>City</ns3:name>
+                            <ns3:label>City</ns3:label>
+                            <ns3:value>mount laurel</ns3:value>
+                            <ns3:elemenentId>3</ns3:elemenentId>
+                        </ns3:AddressElement>
+                        <ns3:AddressElement>
+                            <ns3:name>State</ns3:name>
+                            <ns3:label>State</ns3:label>
+                            <ns3:value>NJ</ns3:value>
+                            <ns3:elemenentId>4</ns3:elemenentId>
+                        </ns3:AddressElement>
+                        <ns3:AddressElement>
+                            <ns3:name>Postal Code</ns3:name>
+                            <ns3:label>Zip code</ns3:label>
+                            <ns3:value>08054</ns3:value>
+                            <ns3:elemenentId>5</ns3:elemenentId>
+                        </ns3:AddressElement>
+                    </ns3:Address>
+                </ns3:Addressess>
+                <ns3:Communication>
+                    <ns3:homeNumber/>
+                    <ns3:workNumber/>
+                    <ns3:mobileNumber>8562202394</ns3:mobileNumber>
+                    <ns3:faxNumber/>
+                    <ns3:emailAddress>rathinmandal@live.com</ns3:emailAddress>
+                </ns3:Communication>
+            </ns2:CustomerData>
+        </ns2:CheckCustomerProfileDataIP>
+    </soapenv:Body>
+</soapenv:Envelope>

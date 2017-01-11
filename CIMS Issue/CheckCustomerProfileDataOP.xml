@@ -1,0 +1,38 @@
+<NS1:Envelope xmlns:NS1="http://schemas.xmlsoap.org/soap/envelope/">
+   <NS1:Body>
+      <NS2:CheckCustomerProfileDataOP xmlns:NS2="http://customeruser.deere.com/Customer/v1_0">
+         <NS2:responseHeader>
+            <NS3:headerVersion xmlns:NS3="http://soartm.deere.com/v3_0/">3.0.3</NS3:headerVersion>
+            <NS4:serviceFunctionalArea xmlns:NS4="http://soartm.deere.com/v3_0/">CIMS</NS4:serviceFunctionalArea>
+            <NS5:serviceInstance xmlns:NS5="http://soartm.deere.com/v3_0/">QA</NS5:serviceInstance>
+            <NS6:messageName xmlns:NS6="http://soartm.deere.com/v3_0/">checkCustomerProfileData</NS6:messageName>
+            <NS7:messageVersion xmlns:NS7="http://soartm.deere.com/v3_0/">1.0.1</NS7:messageVersion>
+            <NS8:trackingID xmlns:NS8="http://soartm.deere.com/v3_0/">80e6ec18c9c44e2f99603c1d6e4e5483</NS8:trackingID>
+            <NS9:originationTimestamp xmlns:NS9="http://soartm.deere.com/v3_0/">2015-02-11T08:02:32.283+05:30</NS9:originationTimestamp>
+            <NS10:locale xmlns:NS10="http://soartm.deere.com/v3_0/">en_US</NS10:locale>
+            <NS11:sourceProgram xmlns:NS11="http://soartm.deere.com/v3_0/">CFA</NS11:sourceProgram>
+            <NS12:firstCallingProgram xmlns:NS12="http://soartm.deere.com/v3_0/">CFA</NS12:firstCallingProgram>
+            <NS13:traceLogRequired xmlns:NS13="http://soartm.deere.com/v3_0/">Y</NS13:traceLogRequired>
+            <NS14:credentials xmlns:NS14="http://soartm.deere.com/v3_0/">
+               <NS14:endUserID>A900252</NS14:endUserID>
+               <NS14:authorization>
+                  <NS14:authorizationID>A900252</NS14:authorizationID>
+                  <NS14:authorizationContext>
+                     <NS14:contextType>ClientLicense</NS14:contextType>
+                     <NS14:context>IDlHPZNM2HLEBLxMVLKHWIHPDVbIB6CC</NS14:context>
+                  </NS14:authorizationContext>
+               </NS14:authorization>
+               <NS14:chargeID>A900252</NS14:chargeID>
+               <NS14:applicationID>A900252</NS14:applicationID>
+            </NS14:credentials>
+            <NS15:overallReturnCondition xmlns:NS15="http://soartm.deere.com/v3_0/">
+               <NS15:tier2Condition>
+                  <NS15:namespace>General</NS15:namespace>
+                  <NS15:requestLink/>
+                  <NS15:responseLink/>
+               </NS15:tier2Condition>
+            </NS15:overallReturnCondition>
+         </NS2:responseHeader>
+      </NS2:CheckCustomerProfileDataOP>
+   </NS1:Body>
+</NS1:Envelope>
